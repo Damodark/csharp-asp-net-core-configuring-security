@@ -5,6 +5,10 @@
     <UserSecretsId>aspnet-ConferenceTracker-CB31C602-C521-47B6-8B42-3D30A6B4202B</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
